@@ -90,6 +90,13 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc  = storyboard?.instantiateViewController(withIdentifier: "PopViewController") as? PopViewController
+        vc?.name = heroes[indexPath.row].localized_name.capitalized
+        let defaultLink = "https://api.opendota.com"
+        let completeLInk = defaultLink + heroes[indexPath.row].img
+        vc?.url = completeLInk
+        
+        navigationController?.pushViewController(vc!, animated: true)
         
     }
     

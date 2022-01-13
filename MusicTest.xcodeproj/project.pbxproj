@@ -16,7 +16,6 @@
 		C5349B612790871600E3B6B4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5349B602790871600E3B6B4 /* Model.swift */; };
 		C5349B6327908E8B00E3B6B4 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5349B6227908E8B00E3B6B4 /* CustomCollectionViewCell.swift */; };
 		C5349B692790A14300E3B6B4 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5349B672790A14300E3B6B4 /* PopViewController.swift */; };
-		C5349B6A2790A14300E3B6B4 /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5349B682790A14300E3B6B4 /* PopViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		C5349B602790871600E3B6B4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C5349B6227908E8B00E3B6B4 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		C5349B672790A14300E3B6B4 /* PopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
-		C5349B682790A14300E3B6B4 /* PopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				C5349B672790A14300E3B6B4 /* PopViewController.swift */,
-				C5349B682790A14300E3B6B4 /* PopViewController.xib */,
 			);
 			path = popUpView;
 			sourceTree = "<group>";
@@ -145,7 +142,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5349B6A2790A14300E3B6B4 /* PopViewController.xib in Resources */,
 				C5349B5B278FFB2600E3B6B4 /* Main.storyboard in Resources */,
 				C5349B2D2788211F00E3B6B4 /* LaunchScreen.storyboard in Resources */,
 				C5349B2A2788211F00E3B6B4 /* Assets.xcassets in Resources */,

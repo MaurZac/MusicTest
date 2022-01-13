@@ -234,6 +234,20 @@ SWIFT_CLASS("_TtC9MusicTest24CustomCollectionViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIView;
+@class NSString;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC9MusicTest17PopViewController")
+@interface PopViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified containerView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified nameHero;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imgHero;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIScene;
 
@@ -251,8 +265,6 @@ SWIFT_CLASS("_TtC9MusicTest13SceneDelegate")
 
 
 @class UICollectionView;
-@class NSString;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC9MusicTest14ViewController")
 @interface ViewController : UIViewController

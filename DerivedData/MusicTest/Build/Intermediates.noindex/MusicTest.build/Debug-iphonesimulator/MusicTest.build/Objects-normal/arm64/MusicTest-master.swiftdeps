@@ -1,10 +1,11 @@
 version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
 options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
-build_start_time: [1642096861, 243937969]
-build_end_time: [1642096861, 761889934]
+build_start_time: [1642104627, 698542118]
+build_end_time: [1642104628, 7315158]
 inputs:
   "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest/AppDelegate.swift": [1642054592, 562898159]
   "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest/CustomCollectionViewCell.swift": [1642093290, 942606925]
   "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest/Model.swift": [1642090730, 300475597]
   "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest/SceneDelegate.swift": [1641539998, 57760715]
-  "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest/ViewController.swift": [1642096860, 752209663]
+  "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest/ViewController.swift": [1642104543, 595853805]
+  "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest/popUpView/PopViewController.swift": [1642104626, 302987098]
