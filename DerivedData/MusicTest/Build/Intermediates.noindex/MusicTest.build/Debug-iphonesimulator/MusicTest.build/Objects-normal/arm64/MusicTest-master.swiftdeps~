@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "7c210285ad91bfaec743ad1cdc75c0a36a39d4994ee93a2203d801d0d6081829"
+build_start_time: [1642052934, 696802139]
+build_end_time: [1642052938, 405282020]
+inputs:
+  "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest/AppDelegate.swift": !private [1641539998, 55608749]
+  "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest/SceneDelegate.swift": !private [1641539998, 57760715]
+  "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest/ViewController.swift": !private [1642052932, 726111650]
