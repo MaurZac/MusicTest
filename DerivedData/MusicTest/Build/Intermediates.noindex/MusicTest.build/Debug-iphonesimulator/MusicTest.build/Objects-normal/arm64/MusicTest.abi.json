@@ -5,6 +5,13 @@
   "children": [
     {
       "kind": "Import",
+      "name": "AVFoundation",
+      "printedName": "AVFoundation",
+      "declKind": "Import",
+      "moduleName": "MusicTest"
+    },
+    {
+      "kind": "Import",
       "name": "Foundation",
       "printedName": "Foundation",
       "declKind": "Import",
@@ -268,6 +275,213 @@
           ]
         },
         {
+          "kind": "Var",
+          "name": "audioplayer",
+          "printedName": "audioplayer",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@MusicTest@objc(cs)ViewController(py)audioplayer",
+          "mangledName": "$s9MusicTest14ViewControllerC11audioplayerSo6UIViewCSgvp",
+          "moduleName": "MusicTest",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 2,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIView",
+                      "printedName": "UIKit.UIView",
+                      "usr": "c:objc(cs)UIView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@MusicTest@objc(cs)ViewController(im)audioplayer",
+              "mangledName": "$s9MusicTest14ViewControllerC11audioplayerSo6UIViewCSgvg",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIView",
+                      "printedName": "UIKit.UIView",
+                      "usr": "c:objc(cs)UIView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@MusicTest@objc(cs)ViewController(im)setAudioplayer:",
+              "mangledName": "$s9MusicTest14ViewControllerC11audioplayerSo6UIViewCSgvs",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9MusicTest14ViewControllerC11audioplayerSo6UIViewCSgvM",
+              "mangledName": "$s9MusicTest14ViewControllerC11audioplayerSo6UIViewCSgvM",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "audioplayr",
+          "printedName": "audioplayr",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AVAudioPlayer",
+              "printedName": "AVFAudio.AVAudioPlayer",
+              "usr": "c:objc(cs)AVAudioPlayer"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9MusicTest14ViewControllerC10audioplayrSo13AVAudioPlayerCvp",
+          "mangledName": "$s9MusicTest14ViewControllerC10audioplayrSo13AVAudioPlayerCvp",
+          "moduleName": "MusicTest",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AVAudioPlayer",
+                  "printedName": "AVFAudio.AVAudioPlayer",
+                  "usr": "c:objc(cs)AVAudioPlayer"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9MusicTest14ViewControllerC10audioplayrSo13AVAudioPlayerCvg",
+              "mangledName": "$s9MusicTest14ViewControllerC10audioplayrSo13AVAudioPlayerCvg",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "AVAudioPlayer",
+                  "printedName": "AVFAudio.AVAudioPlayer",
+                  "usr": "c:objc(cs)AVAudioPlayer"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9MusicTest14ViewControllerC10audioplayrSo13AVAudioPlayerCvs",
+              "mangledName": "$s9MusicTest14ViewControllerC10audioplayrSo13AVAudioPlayerCvs",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9MusicTest14ViewControllerC10audioplayrSo13AVAudioPlayerCvM",
+              "mangledName": "$s9MusicTest14ViewControllerC10audioplayrSo13AVAudioPlayerCvM",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
           "kind": "Function",
           "name": "viewDidLoad",
           "printedName": "viewDidLoad()",
@@ -290,6 +504,85 @@
             "ObjC",
             "Custom",
             "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "audioplayS",
+          "printedName": "audioplayS()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9MusicTest14ViewControllerC10audioplaySyyF",
+          "mangledName": "$s9MusicTest14ViewControllerC10audioplaySyyF",
+          "moduleName": "MusicTest",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "playBtn",
+          "printedName": "playBtn(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIButton",
+              "printedName": "UIKit.UIButton",
+              "usr": "c:objc(cs)UIButton"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@MusicTest@objc(cs)ViewController(im)playBtn:",
+          "mangledName": "$s9MusicTest14ViewControllerC7playBtnyySo8UIButtonCF",
+          "moduleName": "MusicTest",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "stopBtn",
+          "printedName": "stopBtn(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIButton",
+              "printedName": "UIKit.UIButton",
+              "usr": "c:objc(cs)UIButton"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@MusicTest@objc(cs)ViewController(im)stopBtn:",
+          "mangledName": "$s9MusicTest14ViewControllerC7stopBtnyySo8UIButtonCF",
+          "moduleName": "MusicTest",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "IBAction",
+            "ObjC"
           ],
           "funcSelfKind": "NonMutating"
         },
@@ -1069,6 +1362,13 @@
           "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
         }
       ]
+    },
+    {
+      "kind": "Import",
+      "name": "AVFoundation",
+      "printedName": "AVFoundation",
+      "declKind": "Import",
+      "moduleName": "MusicTest"
     },
     {
       "kind": "Import",
@@ -2054,6 +2354,469 @@
       "superclassUsr": "c:objc(cs)UIResponder",
       "inheritsConvenienceInitializers": true,
       "superclassNames": [
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "AVFoundation",
+      "printedName": "AVFoundation",
+      "declKind": "Import",
+      "moduleName": "MusicTest"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "MusicTest"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "MusicTest"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "MusicTest"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "MusicTest"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ProfileViewController",
+      "printedName": "ProfileViewController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "photoProfile",
+          "printedName": "photoProfile",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UIImageView?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@MusicTest@objc(cs)ProfileViewController(py)photoProfile",
+          "mangledName": "$s9MusicTest21ProfileViewControllerC05photoC0So07UIImageD0CSgvp",
+          "moduleName": "MusicTest",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 0,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@MusicTest@objc(cs)ProfileViewController(im)photoProfile",
+              "mangledName": "$s9MusicTest21ProfileViewControllerC05photoC0So07UIImageD0CSgvg",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UIImageView?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImageView",
+                      "printedName": "UIKit.UIImageView",
+                      "usr": "c:objc(cs)UIImageView"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@MusicTest@objc(cs)ProfileViewController(im)setPhotoProfile:",
+              "mangledName": "$s9MusicTest21ProfileViewControllerC05photoC0So07UIImageD0CSgvs",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9MusicTest21ProfileViewControllerC05photoC0So07UIImageD0CSgvM",
+              "mangledName": "$s9MusicTest21ProfileViewControllerC05photoC0So07UIImageD0CSgvM",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "descripcion",
+          "printedName": "descripcion",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeakStorage",
+              "printedName": "UIKit.UILabel?"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@MusicTest@objc(cs)ProfileViewController(py)descripcion",
+          "mangledName": "$s9MusicTest21ProfileViewControllerC11descripcionSo7UILabelCSgvp",
+          "moduleName": "MusicTest",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Custom",
+            "IBOutlet",
+            "ReferenceOwnership",
+            "HasStorage",
+            "ObjC"
+          ],
+          "fixedbinaryorder": 1,
+          "ownership": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@MusicTest@objc(cs)ProfileViewController(im)descripcion",
+              "mangledName": "$s9MusicTest21ProfileViewControllerC11descripcionSo7UILabelCSgvg",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "UIKit.UILabel?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UILabel",
+                      "printedName": "UIKit.UILabel",
+                      "usr": "c:objc(cs)UILabel"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@MusicTest@objc(cs)ProfileViewController(im)setDescripcion:",
+              "mangledName": "$s9MusicTest21ProfileViewControllerC11descripcionSo7UILabelCSgvs",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9MusicTest21ProfileViewControllerC11descripcionSo7UILabelCSgvM",
+              "mangledName": "$s9MusicTest21ProfileViewControllerC11descripcionSo7UILabelCSgvM",
+              "moduleName": "MusicTest",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@MusicTest@objc(cs)ProfileViewController(im)viewDidLoad",
+          "mangledName": "$s9MusicTest21ProfileViewControllerC11viewDidLoadyyF",
+          "moduleName": "MusicTest",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ProfileViewController",
+              "printedName": "MusicTest.ProfileViewController",
+              "usr": "c:@M@MusicTest@objc(cs)ProfileViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@MusicTest@objc(cs)ProfileViewController(im)initWithNibName:bundle:",
+          "mangledName": "$s9MusicTest21ProfileViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "MusicTest",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "MusicTest.ProfileViewController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProfileViewController",
+                  "printedName": "MusicTest.ProfileViewController",
+                  "usr": "c:@M@MusicTest@objc(cs)ProfileViewController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@MusicTest@objc(cs)ProfileViewController(im)initWithCoder:",
+          "mangledName": "$s9MusicTest21ProfileViewControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "MusicTest",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@MusicTest@objc(cs)ProfileViewController",
+      "mangledName": "$s9MusicTest21ProfileViewControllerC",
+      "moduleName": "MusicTest",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIViewController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIViewController",
         "UIKit.UIResponder",
         "ObjectiveC.NSObject"
       ],

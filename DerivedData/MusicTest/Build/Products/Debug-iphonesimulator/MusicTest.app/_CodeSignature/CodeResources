@@ -22,27 +22,47 @@
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
-		ymUiq0GdcOPidLEV8RW/Rx+aYag=
+		D5qKd+RRAY3kewvOy8I38XnLTU8=
 		</data>
 		<key>Main.storyboardc/PopViewController.nib</key>
 		<data>
 		R2JGIRNamstLkqjTKiYSnUO6ru0=
 		</data>
+		<key>Main.storyboardc/ProfileViewController.nib</key>
+		<data>
+		F6x0g6AbL+sa9uMPcbXIzPOzIYs=
+		</data>
 		<key>Main.storyboardc/UINavigationController-pQj-pj-cpt.nib</key>
 		<data>
-		9SCOgcZC0TbNLB4AxG/LAX0iRAc=
+		10jJxJ5KL73KbYur16yXO5+SQ60=
 		</data>
 		<key>Main.storyboardc/W4c-10-AfI-view-dC8-Kt-ADi.nib</key>
 		<data>
 		mLcSnBId0RA1nHMKBKmZM7yq8rU=
 		</data>
+		<key>Main.storyboardc/X0t-ea-S2j-view-OsJ-Bc-jrG.nib</key>
+		<data>
+		Yxb5r145RBaRAzsCJgShMtvCWW8=
+		</data>
 		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		tEnAGOwVo3UzlcTxOoyiCKTfDUo=
+		t9+pQsKfdFEIwGaegokfLVWnLls=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>song1.mp3</key>
+		<data>
+		6fomqSEpoVK6eRfXIqxLalvWsVs=
+		</data>
+		<key>song2.mp3</key>
+		<data>
+		S2onZz8wRLyqM6PISmo4oIY9AbY=
+		</data>
+		<key>song3.mp3</key>
+		<data>
+		6dH0QWQuAz0pgAPO0hVoZamdGKc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -72,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ACsV22BZE3uM7SmskImZ2l5WahaVnJeFNu6ClaR/uEw=
+			t8hmVwAZ3mUHWUMjaA/eh59uQEzM1UaBkmqzR5a1SC0=
 			</data>
 		</dict>
 		<key>Main.storyboardc/PopViewController.nib</key>
@@ -82,11 +102,18 @@
 			SnidpdDNI39f0yEyxYBNFn5c/eAGFjNyRqUTt9GI5Io=
 			</data>
 		</dict>
+		<key>Main.storyboardc/ProfileViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cxqLJoBOAvdgOl+nLMtNE1cUha5LyIWdly7JWP5DXl8=
+			</data>
+		</dict>
 		<key>Main.storyboardc/UINavigationController-pQj-pj-cpt.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pDSDh9ujeKfBPW0TlyNnjGgVvIdA1BTNUAIkOJUckQE=
+			Y7a55somTmWmBHsONrwUskaOjHy6ePXs61beG5KiPy8=
 			</data>
 		</dict>
 		<key>Main.storyboardc/W4c-10-AfI-view-dC8-Kt-ADi.nib</key>
@@ -96,11 +123,39 @@
 			ClhkRqUcruMhlv1/ZgsD2nFTexiWtb7ASOfgF/QbipI=
 			</data>
 		</dict>
+		<key>Main.storyboardc/X0t-ea-S2j-view-OsJ-Bc-jrG.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zGNSaFfvq9XpDJ4z/aFtYUQ+0CtA1wmgTWDYo5c2c1M=
+			</data>
+		</dict>
 		<key>Main.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uaC0GF5cSnDXHpENUQxJHYRNBLe4gdI83pesHI0b8YI=
+			zUirrGiWouum+S5Id/600ZGiVpkpWCghGR4YsjuxDYk=
+			</data>
+		</dict>
+		<key>song1.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			c1Elg4RNRM0My/e5CqetBeVz08aGWFlTD6Zku+r4sHI=
+			</data>
+		</dict>
+		<key>song2.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wWVXI1AfdDprdTM4rMpHF/sxeYCoe4EQf0ttMkr0sQ8=
+			</data>
+		</dict>
+		<key>song3.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RwLMmLO4hTLU5vbElEnHfA4sk7WqsQEC/xfx6+zI27Q=
 			</data>
 		</dict>
 	</dict>

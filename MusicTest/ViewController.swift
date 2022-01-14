@@ -6,8 +6,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 extension UIImageView {
+
     func downloaded(from url: URL, contentMode mode: ContentMode = .scaleAspectFit) {
         contentMode = mode
         URLSession.shared.dataTask(with: url) { data, response, error in
@@ -32,16 +34,36 @@ extension UIImageView {
 class ViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     var heroes = [] as [Hero]
-    
+    @IBOutlet weak var audioplayer: UIView!
+    var audioplayr = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Gallery"
-  
-       setupView()
+        audioplayer.layer.cornerRadius = 50
+        setupView()
         apiCall()
+        audioplayS()
 
     }
+    
+    func audioplayS(){
+        let sound  = Bundle.main.path(forResource: "song3", ofType: "mp3")
+        do {
+            audioplayr = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback, mode: AVAudioSession.Mode.default, options: [AVAudioSession.CategoryOptions.mixWithOthers])
+        }catch{
+            print(error.localizedDescription)
+        }
+    }
+    
+    @IBAction func playBtn(_ sender: UIButton) {
+        audioplayr.play()
+    }
+    @IBAction func stopBtn(_ sender: UIButton) {
+        audioplayr.stop()
+    }
+    
     
     
     func apiCall(){
@@ -108,6 +130,9 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
         }
         return CGSize(width: width, height: width)
     }
+    
+    
+    
     
 }
 

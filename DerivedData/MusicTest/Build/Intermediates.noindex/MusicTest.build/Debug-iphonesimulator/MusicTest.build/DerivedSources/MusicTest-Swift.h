@@ -248,6 +248,16 @@ SWIFT_CLASS("_TtC9MusicTest17PopViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC9MusicTest21ProfileViewController")
+@interface ProfileViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified photoProfile;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified descripcion;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIScene;
 
@@ -265,11 +275,15 @@ SWIFT_CLASS("_TtC9MusicTest13SceneDelegate")
 
 
 @class UICollectionView;
+@class UIButton;
 
 SWIFT_CLASS("_TtC9MusicTest14ViewController")
 @interface ViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified collectionView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified audioplayer;
 - (void)viewDidLoad;
+- (IBAction)playBtn:(UIButton * _Nonnull)sender;
+- (IBAction)stopBtn:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

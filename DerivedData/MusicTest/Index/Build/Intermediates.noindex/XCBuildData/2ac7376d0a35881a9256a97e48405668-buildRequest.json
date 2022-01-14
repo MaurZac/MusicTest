@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "e01095ec51c745d4a5570ad2f18fd27970a35a850b3c2b33c4fe697df274e600"
+    }
+  ],
+  "containerPath" : "/Users/maurzac/Documents/GitHub/MusicTest/MusicTest.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/maurzac/Documents/GitHub/MusicTest/DerivedData/MusicTest/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/maurzac/Documents/GitHub/MusicTest/DerivedData/MusicTest/Index/Build/Products",
+      "derivedDataPath" : "/Users/maurzac/Documents/GitHub/MusicTest/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/maurzac/Documents/GitHub/MusicTest/DerivedData/MusicTest/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/maurzac/Documents/GitHub/MusicTest/DerivedData/MusicTest/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/maurzac/Documents/GitHub/MusicTest/DerivedData/MusicTest/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/maurzac/Documents/GitHub/MusicTest/DerivedData/MusicTest/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
